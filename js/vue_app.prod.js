@@ -12,3 +12,4 @@ const CounterApp = {
 }
 
 Vue.createApp(CounterApp).mount(document.querySelectorAll('[id*="vue_app"]')[0])
+alert(1)
