@@ -1,3 +1,3 @@
 # gravitymir.github.io
-№№ Andrey Sukhodeev's resume
+## Andrey Sukhodeev's resume
 
