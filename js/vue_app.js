@@ -11,4 +11,4 @@ const CounterApp = {
   }
 }
 
-Vue.createApp(CounterApp).mount('#vue_app')
+Vue.createApp(CounterApp).mount('#counter')
