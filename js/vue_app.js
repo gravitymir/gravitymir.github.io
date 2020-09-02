@@ -1,13 +1,3 @@
-const Counter = {
-  data() {
-    return {
-      counter: 0
-    }
-  }
-}
-
-Vue.createApp(Counter).mount('#vue_app')
-
 const CounterApp = {
   data() {
     return {
@@ -20,3 +10,8 @@ const CounterApp = {
     }, 1000)
   }
 }
+
+
+
+
+Vue.createApp(CounterApp).mount('#vue_app')
