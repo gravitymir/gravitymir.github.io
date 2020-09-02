@@ -12,3 +12,4 @@ const CounterApp = {
   }
   
 Vue.createApp(CounterApp).mount('#vue_app')
+alert('asd');
