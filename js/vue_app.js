@@ -1,15 +1,22 @@
-const CounterApp = {
-    data() {
-      return {
-        counter: 0
-      }
-    },
-    mounted() {
-      setInterval(() => {
-        this.counter++
-      }, 1000)
+const Counter = {
+  data() {
+    return {
+      counter: 0
     }
   }
-  
-Vue.createApp(CounterApp).mount('#vue_app')
-alert('asd');
+}
+
+Vue.createApp(Counter).mount('#vue_app')
+
+const CounterApp = {
+  data() {
+    return {
+      counter: 0
+    }
+  },
+  mounted() {
+    setInterval(() => {
+      this.counter++
+    }, 1000)
+  }
+}
