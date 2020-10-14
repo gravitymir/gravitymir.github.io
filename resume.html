@@ -10,41 +10,79 @@
     <meta name="keywords" content="programmer, developer, Andrey Sukhodeev">
     <meta name="author" content="Andrey Sukhodeev">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body{
+        font-size: large;
+        width: 800px;
+      }
+      .flex{
+        display: flex;
+      }
+      .spacearound{
+        justify-content: space-around;
+      }
+    </style>
 </head>
 <body>
   <header>
 
   </header>
   <main>
-    <h1>Summary</h1>
-    <p>
-      Sukhodeev Andrey Sergeevich
-      <ul>
-        <li>Year of birth: 1982</li>
-        <li>Education: secondary</li>
-        <li>Territorially: Ukraine, Kharkiv sity</li>
-      </ul>
-    </p>
-    <p>
-      Technological skills
-      <ul>
-        <li>Node.js JavaScript</li>
-        <li>MySQL, MongoDB</li>
-        <li>HTML CSS</li>
-        <li>Linux</li>
-        <li>English language is elementary</li>
-        <li></li>
-        <li>PHP (it was a long time ago)</li>
-        <li>Docker (junior)</li>
-        <li>Vue.js (junior)</li>
-        <li>Golang (junior)</li>
-      </ul>
-    </p>
-    <p>
-  </p>
-  <p>
-
-  </p>
+    <div class="flex spacearound">
+      <h1>Summary</h1>
+    </div>
+    <div class="flex spacearound">
+      <div>
+        <p>
+          Sukhodeev Andrey Sergeevich<br />
+          Суходеев Андрей Сергеевич
+          <ul>
+            <li>Year of birth: 1982</li>
+            <li>Education: secondary</li>
+            <li>Territorially: Ukraine, Kharkiv sity</li>
+            <li>Email: gravitymir@gmail.com</li>
+            <li>Github: <a href='https://github.com/gravitymir' target="blank">https://github.com/gravitymir</a></li>
+          </ul>
+        </p>
+        <p>
+          Technology skills
+          <ul>
+            <li>JavaScript, Node.js</li>
+            <li>MySQL, MongoDB</li>
+            <li>HTML CSS</li>
+            <li>Linux</li>
+            <li>English language is elementary</li>
+            <br />
+            <li>PHP (it was a long time ago)</li>
+            <li>Docker (junior)</li>
+            <li>Vue.js (junior)</li>
+            <li>Golang (junior)</li>
+            <li>AWS (junior)</li>
+          </ul>
+        </p>
+      </div>
+      <div>
+        <img src="img/my_foto.jpg" width="200px" height="200px" alt="foto">
+        <div>
+          <div>
+            <img src="img/javascript.png" alt="javascript" width="100px">
+            <img src="img/nodejs.png" alt="nodejs" width="100px">
+          </div>
+          <div>
+            <img src="img/mongodb.png" alt="mongodb" width="150px">
+          </div>
+          
+          <img src="img/mysql.png" alt="mysql" width="50px">
+          <img src="img/html.png" alt="html" width="50px">
+          <img src="img/css.png" alt="css" width="50px">
+          <img src="img/aws.png" alt="aws" width="50px">
+          <img src="img/.png" alt="">
+          <img src="img/.png" alt="">
+          <img src="img/.png" alt="">
+          <img src="img/.png" alt="">
+        </div>
+      </div>
+    </div>
     <div id="app">
       Vue.js: {{ counter }}
     </div><!-- #app -->
