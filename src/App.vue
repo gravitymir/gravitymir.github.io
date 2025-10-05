@@ -1,13 +1,12 @@
 <template>
-  <div id="entryPoint">
     <nav class="navbar">
-      <router-link to="/" class="nav-link">Главная</router-link>
-      <router-link to="/about" class="nav-link">О проекте</router-link>
+      <router-link to="/" class="nav-link">Main</router-link>
+      <router-link to="/about" class="nav-link">About</router-link>
+      <router-link to="/contact" class="nav-link">Contact</router-link>
     </nav>
     <main class="main-content">
       <router-view />
     </main>
-  </div>
 </template>
 
 <script>

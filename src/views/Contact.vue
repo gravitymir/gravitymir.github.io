@@ -1,10 +1,15 @@
 <template>
   <div class="contact">
-    <h1>Контакты</h1>
-    <p>Свяжитесь с нами!</p>
-    <div class="contact-info">
-      <p>Email: example@email.com</p>
-      <p>Телефон: +7 (123) 456-78-90</p>
+    <div class="contact-content">
+      <h1>Contacts</h1>
+      <div class="tech-stack">
+        <h2>Contacts:</h2>
+        <ul>
+          <li>09823445245</li>
+          <li>Cork</li>
+          <li>Ireland</li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -17,15 +22,49 @@ export default {
 
 <style scoped>
 .contact {
-  padding: 20px;
-  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.contact-info {
-  margin-top: 20px;
-  padding: 20px;
-  background: #f9f9f9;
-  border-radius: 8px;
-  display: inline-block;
+.contact-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 3rem;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.tech-stack h2 {
+  margin-bottom: 1rem;
+  color: #FFE66D;
+}
+
+.tech-stack ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tech-stack li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tech-stack li:last-child {
+  border-bottom: none;
 }
 </style>
