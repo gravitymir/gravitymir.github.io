@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgravitymir_github_io"]=self["webpackChunkgravitymir_github_io"]||[]).push([[621],{621:function(u,n,t){t.r(n),t.d(n,{default:function(){return o}});var r=t(6768);const i={class:"about"};function e(u,n,t,e,a,s){return(0,r.uX)(),(0,r.CE)("div",i,[...n[0]||(n[0]=[(0,r.Lk)("h1",null,"О проекте",-1),(0,r.Lk)("p",null,"Это одностраничное приложение создано с помощью Vue.js",-1)])])}var a={name:"AboutView"},s=t(1241);const c=(0,s.A)(a,[["render",e]]);var o=c}}]);
+//# sourceMappingURL=621.bc0b1834.js.map

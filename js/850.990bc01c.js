@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgravitymir_github_io"]=self["webpackChunkgravitymir_github_io"]||[]).push([[850],{2850:function(u,e,n){n.r(e),n.d(e,{default:function(){return o}});var i=n(6768);const r={class:"home"};function t(u,e,n,t,a,s){return(0,i.uX)(),(0,i.CE)("div",r,[...e[0]||(e[0]=[(0,i.Lk)("h1",null,"Добро пожаловать в мое Vue.js приложение!",-1),(0,i.Lk)("p",null,"Это главная страница SPA на GitHub Pages",-1)])])}var a={name:"HomeView"},s=n(1241);const c=(0,s.A)(a,[["render",t]]);var o=c}}]);
+//# sourceMappingURL=850.990bc01c.js.map
