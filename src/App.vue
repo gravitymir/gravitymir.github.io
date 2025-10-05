@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <nav>
+      <router-link to="/">Главная</router-link>
+      <router-link to="/about">О проекте</router-link>
+      <router-link to="/contact">Контакты</router-link>
+    </nav>
+    
+    <!-- Здесь будут отображаться компоненты маршрутов -->
+    <router-view />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+/* Стили для навигации */
+nav {
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
   color: #2c3e50;
-  margin-top: 60px;
+  font-weight: bold;
+}
+
+nav a.router-link-active {
+  color: #42b983;
 }
 </style>
