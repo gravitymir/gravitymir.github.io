@@ -1,16 +1,8 @@
 <template>
-  <div class="contact">
-    <div class="contact-content">
-      <h1>Contacts</h1>
-      <div class="tech-stack">
-        <h2>Contacts:</h2>
-        <ul>
-          <li>09823445245</li>
-          <li>Cork</li>
-          <li>Ireland</li>
-        </ul>
-      </div>
-    </div>
+  <div class="not-found">
+    <h1>999999 - Страница не найдена</h1>
+    <p>Извините, запрашиваемая страница не существует.</p>
+    <router-link to="/" class="home-link">Вернуться на главную</router-link>
   </div>
 </template>
 
@@ -21,50 +13,19 @@ export default {
 </script>
 
 <style scoped>
-.contact {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.contact-content {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  padding: 3rem;
-  border-radius: 20px;
+.not-found {
+  text-align: center;
+  padding: 2rem;
   color: white;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.home-link {
+  color: #42b983;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
-  opacity: 0.9;
-}
-
-.tech-stack h2 {
-  margin-bottom: 1rem;
-  color: #FFE66D;
-}
-
-.tech-stack ul {
-  list-style: none;
-  padding: 0;
-}
-
-.tech-stack li {
-  padding: 0.5rem 0;
-  font-size: 1.1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.tech-stack li:last-child {
-  border-bottom: none;
+.home-link:hover {
+  text-decoration: underline;
 }
 </style>

@@ -1,12 +1,13 @@
 <template>
-    <nav class="navbar">
-      <router-link to="/" class="nav-link">Main</router-link>
-      <router-link to="/about" class="nav-link">About</router-link>
-      <router-link to="/contact" class="nav-link">Contact</router-link>
-    </nav>
-    <main class="main-content">
-      <router-view />
-    </main>
+  <nav class="navbar">
+    <router-link to="/" class="nav-link">Главная</router-link>
+    <router-link to="/about" class="nav-link">About</router-link>
+    <router-link to="/contact" class="nav-link">Contact2</router-link>
+    <router-link to="/asd" class="nav-link">ASD</router-link>
+  </nav>
+  <main class="main-content">
+    <router-view />
+  </main>
 </template>
 
 <script>
